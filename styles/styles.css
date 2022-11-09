@@ -962,7 +962,7 @@ img {
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   column-gap: 20px;
   row-gap: 22px;
-  margin-bottom: 79px;
+  margin-bottom: 40px;
 }
 
 .hotel-card {
@@ -1075,22 +1075,13 @@ img {
 }
 
 .hotel-cards-pagination {
-  position: relative;
   display: flex;
   flex-wrap: wrap;
   margin: 0;
   padding: 0;
+  padding-top: 38px;
+  border-top: 1px solid #e6e6e6;
   list-style-type: none;
-}
-
-.hotel-cards-pagination::before {
-  content: "";
-  position: absolute;
-  height: 1px;
-  top: -40px;
-  left: 0;
-  right: 0;
-  background-color: #e6e6e6;
 }
 
 .pagination-link {
